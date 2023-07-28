@@ -1,5 +1,6 @@
 #include "stdio.h"
 
+// some comment
 int mul(int a, int b)
 {
 	return a*b;
