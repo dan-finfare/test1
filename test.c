@@ -1,6 +1,7 @@
 #include "stdio.h"
 
 int main(int argc, char* argv[]) {
-	printf("Hello!");
+	const char* name = "test";
+	printf("Hello, %s!", name);
 	return 0;
 }
